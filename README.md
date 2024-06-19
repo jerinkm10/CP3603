@@ -1,4 +1,5 @@
-
+DB Name create to dynamicFrom
+config DB in ENV
 
 php artisan serve
 
