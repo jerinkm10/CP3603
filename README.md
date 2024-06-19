@@ -29,3 +29,8 @@ login credentials
 username : john@example.com
 
 password : password
+admin section 
+http://127.0.0.1:8000/login
+
+user section 
+http://127.0.0.1:8000/users 
