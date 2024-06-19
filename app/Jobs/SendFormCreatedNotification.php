@@ -34,6 +34,6 @@ class SendFormCreatedNotification implements ShouldQueue
      */
     public function handle()
     {
-        Mail::to('jerin10@km@gmail.com')->send(new FormCreatedNotification($this->form));
+       // Mail::to('jerin10@km@gmail.com')->send(new FormCreatedNotification($this->form));
     }
 }
