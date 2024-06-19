@@ -1,0 +1,471 @@
+
+body {
+	font-size: 14px;
+	padding-bottom: 41px;
+}
+
+/*-------- Common Styles starts --------*/
+
+label {
+	font-weight: 600;
+	color: #666;
+}
+
+.btn { font-size: 14px; }
+
+.form-control {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+a {
+	color: #996515;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #996515;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.ma {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/*-------- Common Styles ends --------*/
+
+/*-------- btn styles starts -----*/
+
+.btn-login {
+	width: 100%;
+	margin:5px 0 15px;
+	text-transform: uppercase;
+	background: #996515;
+	border-color: #996515;
+}
+
+.btn-search {
+	width: 100%;
+	margin:30px 0 0;
+	text-transform: uppercase;
+	background: #996515;
+	border-color: #996515; 
+	color: #fff;
+}
+
+.btn-add {
+	background: #996515;
+	border-color: #996515; 
+	color: #fff;
+}
+
+.btn-view-two {
+	background: #996515;
+	border-color: #996515; 
+	color: #fff;
+	margin-top: 28px;
+}
+
+.btn-view {
+	background: #996515;
+	border-color: #996515; 
+	color: #fff;
+	padding: 2px 5px;
+	font-size: 13px;
+}
+
+.btn-submit {
+	width: 200px;
+	margin:30px auto;
+	text-transform: uppercase;
+	background: #996515;
+	border-color: #996515; 
+	color: #fff;
+}
+
+.btn-login:hover, .btn-submit:hover, .btn-view:hover, .btn-add:hover, .btn-search:hover, .btn-view-two:hover {
+	color: #fff;
+	background: #754b09;
+} 
+
+/*-------- btn styles ends -----*/
+
+.success-msg {
+	font-size: 17px;
+	color: #996515;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.margin-auto {
+	display: block;
+	margin: 0 auto;
+}
+
+
+.bg-dark {
+    background-color: #996515 !important;
+}
+
+footer { 
+	width: 100%; 
+	position: fixed; 
+	bottom: 0; 
+	right: 0; 
+	padding: 10px 15px; 
+	z-index: 999;
+	border-top: #ddd solid 1px;
+	margin-top: 10px;
+	background: #f8f9fa;
+	color: #666;
+	font-size: 14px;
+}
+
+.sidebar-sticky {
+	padding-bottom: 33px;
+}
+
+.powered {
+	text-align: right;
+}
+
+footer p {
+	margin: 0;
+}
+
+.login-box {
+	margin-top: 100px;
+}
+
+.logo {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.logo1 {
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+.login-cover {
+	padding: 25px;
+	border:#ddd solid 1px;
+	border-radius: 7px;
+}
+
+.login-cover h3 {
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.login-cover .form-control {
+	margin-bottom: 15px;
+}
+
+
+
+.forgot {
+	text-align: center;
+	text-decoration: underline;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.login-cover h5 {
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+}
+
+.dashboard-left {
+	padding-top: 10px;
+}
+
+.dash-head-main {
+	font-size: 25px;
+}
+
+.dash-head1 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.dash-card {		
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	display: block;
+	background: #f5f5f5;
+}
+
+.dash-card i {
+	width: 20px; margin-right: 5px;
+}
+
+.dash-card a {
+	display: block;
+	color: #333;
+	text-decoration: none;
+	padding: 15px;
+	border-radius: 5px;
+	border: solid 1px #ddd;
+}
+
+.dash-card a:hover {
+	background: #996515;
+	color: #fff;
+}
+
+.dashboard-right {
+	border-left: #ddd solid 1px;
+	padding-left: 20px;
+	min-height: 400px;
+}
+
+.dash-right-card {
+	margin-bottom: 10px;
+}
+
+.dash-right-card h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.dash-right-card h4::after {
+	content: '';
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 1px;
+	background: #ddd;
+	top: 10px;
+}
+
+.dash-right-card ul {
+	padding: 10px 0;
+	line-height: 25px;
+	font-size: 14px;
+	margin: 0;
+}
+
+.dash-right-card ul li { 
+	display: block;
+}
+
+.dash-right-card ul li span { 
+	min-width: 110px;
+	display: inline-block;
+}
+
+.top-details {
+	color: #fff;
+	font-size: 16px;
+}
+
+.top-details span {
+	padding: 0 5px;
+}
+
+.sidebar .nav-link {
+	border-bottom: #ddd solid 1px;
+}
+
+.sidebar .nav-link i {
+	width: 15px; 
+	margin-right: 5px;
+}
+
+.sidebar .nav-link i.arow {
+	display: inline-block;
+	float: right;
+	padding: 5px 0;
+	margin: 0;
+	width: auto;
+}
+
+.project-list-head {
+	background: #eee;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.head-filter label {
+	display: block;
+}
+
+
+
+.time-enter {
+	width: 150px;
+}
+
+.time-split {
+	width: 45%;
+	margin: 0 2px;
+	display: inline-block;
+	float: left;
+}
+
+
+
+.holiday-cal-sec {
+	max-width: 800px;
+	border:#ddd solid 1px;
+}
+
+.leave-right {
+	padding-left: 30px;
+	border-left: #ddd solid 1px;
+}
+
+.proj-add-card {
+	
+}
+
+.proj-add-card h4 {
+	font-size: 18px;
+}
+
+.proj-add-card label {
+	color: #666;
+}
+
+.project-add-left .card-header {
+	font-size: 15px;
+	font-weight: 600;
+	color: #333;
+	padding:0;
+	display: block;
+}
+
+.project-add-left .card-header a {
+	padding: .75rem 1.25rem;
+	display: block;
+}
+
+.project-add-left .card {
+	margin-bottom: 5px;
+}
+
+.project-add-right h4 {
+	font-size: 18px;
+	font-weight: 600px;
+	margin-bottom: 20px;
+}
+
+.project-add-right h4::after { 
+	content: '';
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 1px;
+	background: #ddd;
+	top: 10px;	
+}
+
+.sidebar .nav-link.active {
+	color: #996515;
+}
+
+.user-name {
+	font-size: 17px;
+	background: #a9670a;
+}
+
+.user-name .nav-link.active {
+	color: #fff;
+}
+
+.small-heading {
+	font-size: 16px;
+}
+
+
+/*--------Team Lead Section-------------*/
+
+
+.admin1 h5 {
+	font-size: 17px;
+}
+
+.admin1 hr {
+	margin-top: 0;
+}
+
+.admin1 .dash-card {
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+
+.admin1 .dash-card a {
+	padding: 7px 10px;
+}
+
+
+.employee-sec h4 {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 12px;
+	border-bottom: #ddd solid 1px;
+	padding-bottom: 10px;
+}
+
+.emp-sec-left .tab-content>.tab-pane {
+	border: #ddd solid 1px;
+	padding: 15px;
+	border-top: 0;
+	border-radius: 0 0 5px 5px;
+}
+
+.emp-sec-left .nav-tabs .nav-link {
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+}
+
+.emp-sec-left .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	color: #fff;
+	background: #666;
+}
+
+.employee-sec {
+	padding-bottom: 40px;
+}
+.working-off{
+	display: block;
+	width: 40px;
+	height: 20px;
+	background: red;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	font-size: 12px;
+}
+.working-on{
+	display: block;
+	width: 40px;
+	height: 20px;
+	background: green;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	font-size: 12px;
+}
