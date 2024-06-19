@@ -20,6 +20,10 @@ php artisan migrate
 php artisan queue:work
 
 
+E:\xamppes\htdocs\dynamic\CP3603\app\Jobs\SendFormCreatedNotification.php 
+
+line 37 config email id 
+
 login credentials
 
 username : john@example.com
