@@ -11,6 +11,8 @@ php artisan db:seed --class=UsersTableSeeder
 
 change Mail
 
+QUEUE_CONNECTION=database
+
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.gmail.com
 MAIL_PORT=587
